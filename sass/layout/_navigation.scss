@@ -120,7 +120,7 @@
         top: 0;
         transform: rotate(135deg);
     }
-    &__checkbox:checke &__button &__icon::after {
+    &__checkbox:checked+&__button &__icon::after {
         top: 0;
         transform: rotate(-135deg);
     }
